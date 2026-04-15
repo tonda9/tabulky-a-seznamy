@@ -1,0 +1,89 @@
+:root {
+    --barvaNadpis: #ff0404;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 1200px;
+    margin-top: 20px;
+    padding: 0 auto;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+ 
+h2 {
+   background-color: var(--barvaNadpis);
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 11px;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #1f2a30;
+}
+
+thead, tfoot {
+    background-color: rgb(219, 215, 215);
+}
+h3 {
+    color: darkblue;
+    margin-top: 20px;
+    padding: 10px;
+}
+body > section {
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #c9c7c7;
+    border-top: 0px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.hint {
+    text-decoration: underline dashed;
+}
+
+li {
+    margin: 5px 0;
+}
+
+ul ul, ul ol, ol ul, ol ol, dd {
+    margin-left: 20px;
+}
+
+dl {
+    margin-top: 10px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+caption {
+    background-color: #1f2a30;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.p {
+    text-align: right
+}
+.c {
+    color: red;
+    text-align: right;
+}
+
